@@ -1,0 +1,24 @@
+{
+  "name": "ashoq-ser",
+  "version": "0.1.0",
+  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
+  "main": "ser.js",
+  "scripts": {
+    "start": "node ser.js"
+  },
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "handlebars": "^4.7.8",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.10.2",
+    "@fastify/view": "^8.0.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "websocket": "^1.0.34",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+
+}
