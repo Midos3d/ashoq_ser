@@ -275,6 +275,7 @@ io.on('connection', function (socket) {
 });
 const port = process.env.PORT || 8080 ;
 console.log("8080");
+console.log(number);
 server.listen(port);
 
 
