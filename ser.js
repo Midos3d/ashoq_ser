@@ -273,7 +273,7 @@ io.on('connection', function (socket) {
     }
   })
 });
-var port = 10000;
+var port = 8080;
 console.log(port);
 server.listen(port);
 
