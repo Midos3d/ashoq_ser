@@ -273,8 +273,8 @@ io.on('connection', function (socket) {
     }
   })
 });
-var port = 8080;
-console.log(port);
+const port = process.env.PORT || 8080 ;
+console.log("8080");
 server.listen(port);
 
 
